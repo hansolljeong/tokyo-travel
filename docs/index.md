@@ -6,12 +6,12 @@
 
 - [여행 개요](00-overview/trip-summary.md)
 - [전체 일정](01-itinerary/master-itinerary.md)
-- [날짜별 계획](01-itinerary/daily/)
+- [날짜별 계획](01-itinerary/master-itinerary.md)
 - [항공 및 공항](02-logistics/flights-airport.md)
 - [숙소](02-logistics/accommodations.md)
 - [Ultra Japan 2026](02-logistics/ultra-japan.md)
 - [이동 전략](02-logistics/transportation.md)
-- [방문 후보 장소](03-places/)
+- [방문 후보 장소](03-places/README.md)
 - [출발 전 준비](04-prep/pre-trip-checklist.md)
 - [현지 체크리스트](04-prep/on-trip-checklist.md)
 - [추가 메모함](99-inbox/inbox.md)
@@ -42,4 +42,3 @@
 - 레코드바와 사우나는 욕심내지 않고, 밤 컨디션과 숙소 위치에 따라 선택
 - 첫날은 다이몬/하마마쓰초 접근성을 활용해 가볍게 워밍업
 - 마지막 날은 나리타 이동 리스크를 줄이기 위해 오전 일정을 작게 잡기
-

@@ -1,0 +1,83 @@
+site_name: 도쿄 여행 위키
+site_description: 2026년 도쿄 여행 일정과 준비 정보
+site_url: https://hansolljeong.github.io/tokyo-travel/
+repo_url: https://github.com/hansolljeong/tokyo-travel
+repo_name: hansolljeong/tokyo-travel
+docs_dir: docs
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+
+plugins:
+  - search:
+      lang: ko
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+nav:
+  - 홈: index.md
+  - 여행 개요: 00-overview/trip-summary.md
+  - 일정:
+      - 전체 일정: 01-itinerary/master-itinerary.md
+      - 9월 18일 금요일: 01-itinerary/daily/2026-09-18-fri.md
+      - 9월 19일 토요일: 01-itinerary/daily/2026-09-19-sat.md
+      - 9월 20일 일요일: 01-itinerary/daily/2026-09-20-sun.md
+      - 9월 21일 월요일: 01-itinerary/daily/2026-09-21-mon.md
+      - 9월 22일 화요일: 01-itinerary/daily/2026-09-22-tue.md
+  - 교통·예약:
+      - 항공 및 공항: 02-logistics/flights-airport.md
+      - 숙소: 02-logistics/accommodations.md
+      - 이동 전략: 02-logistics/transportation.md
+      - Ultra Japan 2026: 02-logistics/ultra-japan.md
+  - 방문 후보:
+      - 둘러보기: 03-places/README.md
+      - 음식: 03-places/food.md
+      - 지역별 후보: 03-places/neighborhoods.md
+      - 레코드바: 03-places/record-bars.md
+      - 사우나: 03-places/saunas.md
+  - 준비:
+      - 예산: 04-prep/budget.md
+      - 출발 전 체크리스트: 04-prep/pre-trip-checklist.md
+      - 현지 체크리스트: 04-prep/on-trip-checklist.md
+      - 비상 정보: 04-prep/emergency.md
+  - 메모함: 99-inbox/inbox.md
+
+extra:
+  generator: false
+
+copyright: 2026 Tokyo Travel
